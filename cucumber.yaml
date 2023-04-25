@@ -1,0 +1,4 @@
+---
+pretty: --format pretty
+regression_report: -p allure -p pretty
+allure: --format AllureCucumber::CucumberFormatter --out=allure-report
